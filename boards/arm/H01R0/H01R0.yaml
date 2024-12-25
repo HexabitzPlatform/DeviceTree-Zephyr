@@ -1,0 +1,18 @@
+identifier: H01R0
+name: Hexabitz RGB Module
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 144
+flash: 512
+supported:
+  - adc
+  - uart
+  - gpio
+  - nvs
+  - dma
+  - lptim
+vendor: st
